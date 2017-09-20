@@ -1,0 +1,32 @@
+{
+  "name": "overwatch_progressive",
+  "version": "1.0.0",
+  "description": "Overwatch Progressive App",
+  "main": "node ./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Andell Mohan",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-if": "^2.0.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "jquery": "^3.2.1",
+    "sw-precache": "^5.2.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}
